@@ -18,6 +18,7 @@ public class Complemento2 {
                     }
                }
           }
+          
           Object a[] = new Object[tamano];
           tamano = 0;
 
