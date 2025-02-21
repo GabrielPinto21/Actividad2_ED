@@ -27,24 +27,6 @@ public class Complemento {
                 }
             }
         }
-
-        // Print the Array return before to give the result
-        System.out.println("Resultado del complemento: " + printArray(a));
-
         return a;
-
     }
-
-    private String printArray(int[] array) {
-        String value = "[";
-        for (int i = 0; i < array.length; i++) {
-            value += array[i];
-            if (i < array.length - 1) {
-                value += (", ");
-            }
-        }
-        value += "]";
-        return value;
-    }
-
 }
