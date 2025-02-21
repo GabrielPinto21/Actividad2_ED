@@ -17,6 +17,6 @@ public class Test {
 
         c.complemento(universal, x);
         stopWatch.stop();
-        System.out.println("Tiempo de ejecución: " + stopWatch.getTime() + " ms");
+        System.out.println("Tiempo de ejecución: " + stopWatch.getDuration() + " ms");
     }
 }
