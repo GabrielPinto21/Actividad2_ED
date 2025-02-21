@@ -2,12 +2,12 @@ package modelo;
 
 public class Complemento {
 
-    public int[] complemento(int universal[], int x[]) {
+    public Object[] complemento(Object universal[], Object x[]) {
         int tamano = universal.length;
         for (int i = 0; i < universal.length; i++) {
             for (int j = 0; j < x.length; j++) {
-                if (universal[i] == x[j]) {
-                    universal[i] = 0;
+                if (universal[i].equals(x[j])) {
+                    universal[i] = null;
                     tamano--;
                     break;
                 }
@@ -15,12 +15,12 @@ public class Complemento {
             }
         }
 
-        int a[] = new int[tamano];
+        Object a[] = new Object[tamano];
         tamano = 0;
 
         for (int i = 0; i < universal.length; i++) {
             for (int j = 0; j < a.length; j++) {
-                if (universal[i] != 0) {
+                if (universal[i] != null) {
                     a[tamano] = universal[i];
                     tamano++;
                     break;
