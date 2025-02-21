@@ -53,7 +53,7 @@ public class Test2 {
 
      /**
       * Donde valimados que dentro de los números del 1 al 100, el complemento de un
-      * conjunto de tipo (X ∈ E, -10≥ X ≤ 10)
+      * conjunto de tipo (X ∈ E, -10 ≤ X ≤ 10)
       * 
       * @return Un String con el resultado esperado: 11, 12, 13...100
       */
